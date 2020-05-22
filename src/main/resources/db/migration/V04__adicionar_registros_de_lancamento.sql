@@ -1,0 +1,15 @@
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Salário mensal', '2017-06-10', null, 6500.00, 'Distribuição de lucros', 'RECEITA', 1, 1);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Bahamas', '2017-02-10', '2017-02-10', 100.32, null, 'DESPESA', 2, 2);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Top Club', '2017-06-10', null, 120, null, 'RECEITA', 3, 3);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('CEMIG', '2017-02-10', '2017-02-10', 110.44, 'Geração', 'RECEITA', 3, 4);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('DMAE', '2017-06-10', null, 200.30, null, 'DESPESA', 3, 1);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Extra', '2017-03-10', '2017-03-10', 1010.32, null, 'RECEITA', 4, 1);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Bahamas', '2017-06-10', null, 500, null, 'RECEITA', 1, 2);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Top Club', '2017-03-10', '2017-03-10', 400.32, null, 'DESPESA', 4, 3);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Despachante', '2017-06-10', null, 123.64, 'Multas', 'DESPESA', 3, 4);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Pneus', '2017-04-10', '2017-04-10', 665.33, null, 'RECEITA', 5, 1);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Café', '2017-06-10', null, 8.32, null, 'DESPESA', 1, 1);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Eletrônicos', '2017-04-10', '2017-04-10', 2100.32, null, 'DESPESA', 5, 2);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Instrumentos', '2017-06-10', null, 1040.32, null, 'DESPESA', 4, 3);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Café', '2017-04-10', '2017-04-10', 4.32, null, 'DESPESA', 4, 4);
+INSERT INTO lancamento (descricao, dataVencimento, dataPagamento, valor, observacao, tipo, idCategoria, idPessoa) values ('Lanche', '2017-06-10', null, 10.20, null, 'DESPESA', 4, 2);
