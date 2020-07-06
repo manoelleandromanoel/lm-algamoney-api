@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
-	<groupId>com.algaworks.algamoney-api</groupId>
-	<artifactId>algamoney-api</artifactId>
+	<groupId>com.algaworks.lm-algamoney-api</groupId>
+	<artifactId>lm-algamoney-api</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	
-	<name>algamoney-api</name>
+	<name>lm-algamoney-api</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
