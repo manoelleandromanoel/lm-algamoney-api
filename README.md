@@ -5,7 +5,7 @@
 ## Tecnologias
 - Ambiente de desenvolvimento (IDE): [Spring Tool Suite 3](https://github.com/spring-projects/toolsuite-distribution/wiki/Spring-Tool-Suite-3) Version: 3.9.11.RELEASE
 - Linguagem de programação: [Java 8](https://www.java.com/pt_BR/download/faq/java8.xml)
-- //TODO: Banco de dados: 
+- Banco de dados: [PostgreSQL 12](https://www.postgresql.org/docs/12/textsearch-configuration.html) 
 - Framework: [SpringBoot](https://spring.io/projects/spring-boot) 2.2.6
 - Controle de dependências: [Maven](https://maven.apache.org/)
 
