@@ -1,4 +1,3 @@
-
 ## ALGAMONEY API
 - Backend - Curso Fullstack Angular e Spring Boot
 
@@ -23,4 +22,35 @@
 - Para efetuar os testes da aplicação, foi utilizado a ferramenta [Postman](https://www.postman.com/). Caso queira facilitar os testes basta importar no Postman o arquivo que está no diretório: 'docs/LM Candidatos API.postman_collection.json'
 
 ## ROTAS DA API
-//TODO:
+
+### Pessoas
+Lista de Pessoas 
+- **@GET** http://localhost:8080/pessoas/
+
+Busca uma pessoa pelo ID
+- **@GET** http://localhost:8080/pessoas/{id}
+
+Adiciona uma pessoa
+- **@POST** http://localhost:8080/pessoas/
+Com o Json de exemplo:  { "nome" : "José Maria", "ativo" : false }
+
+Atualiza uma pessoa
+- **@PUT** http://localhost:8080/pessoas/{id}
+Com o Json de exemplo: { "nome": "José Maria Marin DA SILVA", "ativo": true, "endereco": { "logradouro": "Avenida Presidente Vargas", "numero": "357", "cidade": "Ribeirão Preto", "estado": "SP" } }
+
+Atualiza apenas a propriedade Ativo de pessoa
+- **@PUT** http://localhost:8080/pessoas/{id}/ativo
+Com o Body de exemplo: true
+
+Deleta uma pessoa pelo ID
+- **@DELETE** http://localhost:8080/pessoas/{id}
+
+
+### Categorias
+Lista de Categorias
+
+### Lançamentos
+Lista de Lançamentos
+
+### Token
+Token
